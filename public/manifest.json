@@ -1,25 +1,15 @@
 {
   "manifest_version": 2,
 
-  "name": "Chrome Extension TypeScript Starter",
-  "description": "Chrome Extension, TypeScript, Visual Studio Code",
+  "name": "oreilly-ebooks-renamer",
+  "description": "oreilly-ebooks-renamer",
   "version": "1.0",
 
-  "options_ui": {
-    "page": "options.html",
-    "chrome_style": true
-  },
-
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
-  },
-
   "content_scripts": [
-      {
-          "matches": ["<all_urls>"],
-          "js": ["js/vendor.js", "js/content_script.js"]
-      }
+    {
+      "matches": ["https://www.oreilly.co.jp/ebook/bookshelf"],
+      "js": ["js/vendor.js", "js/content_script.js"]
+    }
   ],
 
   "background": {
@@ -27,7 +17,7 @@
   },
 
   "permissions": [
-    "storage",
-    "<all_urls>"
+    "downloads",
+    "https://www.oreilly.co.jp/ebook/bookshelf"
   ]
 }

@@ -1,8 +1,10 @@
 # Chrome Extension TypeScript Starter
 
-[![Build Status](https://travis-ci.org/chibat/chrome-extension-typescript-starter.svg?branch=master)](https://travis-ci.org/chibat/chrome-extension-typescript-starter)
+[日本 O'Reilly の購入済みページ](https://www.oreilly.co.jp/ebook/bookshelf) の書籍のダウンロードを ISBN ベースではなく、タイトルベースでリネームして行うための拡張機能です。
 
-Chrome Extension, TypeScript and Visual Studio Code
+[カスタムの Chrome アプリと拡張機能を作成して公開する \- Google Chrome Enterprise ヘルプ](https://support.google.com/chrome/a/answer/2714278?hl=ja) の 2 アプリや拡張機能をテストするにしたがって、`dist` フォルダを拡張機能として読み込んでください。
+
+この拡張機能は [chibat/chrome-extension-typescript-starter](https://github.com/chibat/chrome-extension-typescript-starter) をベースに書かれました。
 
 ## Prerequisites
 
@@ -11,19 +13,6 @@ Chrome Extension, TypeScript and Visual Studio Code
 ## Option
 
 * [Visual Studio Code](https://code.visualstudio.com/)
-
-## Includes the following
-
-* TypeScript
-* Webpack
-* Moment.js
-* jQuery
-* Example Code
-    * Chrome Storage
-    * Options Version 2
-    * content script
-    * count up badge number
-    * background
 
 ## Project Structure
 
