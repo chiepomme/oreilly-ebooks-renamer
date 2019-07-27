@@ -8,12 +8,12 @@
   "content_scripts": [
     {
       "matches": ["https://www.oreilly.co.jp/ebook/bookshelf"],
-      "js": ["js/vendor.js", "js/content_script.js"]
+      "js": ["js/content_script.js"]
     }
   ],
 
   "background": {
-    "scripts": ["js/vendor.js", "js/background.js"]
+    "scripts": ["js/background.js"]
   },
 
   "permissions": [
